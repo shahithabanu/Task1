@@ -1,0 +1,48 @@
+*{
+   background-color: azure;
+   margin: 10 ;
+   padding: 2px;
+
+   
+
+}
+h1,h2{
+    background-color:darkgrey;
+    color:#dc143c;
+    width: 300px;
+    text-align: center;
+}
+h4{
+   
+    color:purple;
+    border: 1px dashed #000;  
+    border-radius: 10%;
+    width: 200px;
+    
+}
+
+input,textarea{
+    font: inherit;
+}
+p{
+    word-spacing: normal;
+}
+p span{
+    color:crimson;
+}
+table, th, td {
+    border:  1px solid black;
+}
+a:visited{
+    color: rgb(62, 0, 128);    
+}
+a:active{
+    color: #dc143c;
+}
+a:hover{
+    /* color: rgba(red, green, blue, alpha); */
+    background-color:#dc143c;
+}
+ul{
+    list-style-type: disc;
+}

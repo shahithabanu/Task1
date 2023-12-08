@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D Employee document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <h1>Employee Application form</h1>
+    <fieldset>
+        <legend>Details</legend>
+    <form action="#"  method="get">
+        <div>
+            <label for="Firstname">Firstname* : </label>
+            <input type="text" name="Firstname" id="Fisrtname" required>
+
+            <label for="lastname">Lastname* : </label>
+            <input type="text" name="lastname" id="lastname" required><br><br>
+
+            <label for="email">Email* : </label>
+            <input type="email" name="email" id="email" required><br><br>
+
+            <label for="text">choose your location</label>
+            <select name="location" id="location">
+                <option value="chennai">chennai</option>
+                <option value="thanjavur">thanjavur</option>
+                <option value="pudukkotai">pudukkotai</option>
+                <option value="cuddalore">cuddalore</option>
+                <option value="trichy">trichy</option>
+                <option value="thiruvannamalai">thiruvannamalai</option>
+                <option value="padi">padi</option>
+            </select><br><br>
+
+            <label for="pfw">portfolio website : </label>
+            <input type="text" name="pfw" id="pfw" value="http://"><br><br>
+
+            <label for="position">position you are applying for* : </label>
+            <input type="text" name="position" id="position" ><br><br>
+
+            <label for="sr">salary requirements : </label>
+           <input type="checkbox" name="sr" id="sr"> below 15k
+           <input type="checkbox" name="sr" id="sr"> 15k-20k
+           <input type="checkbox" name="sr" id="sr"> 20k-30k
+           <input type="checkbox" name="sr" id="sr"> above 30k<br><br>
+
+            
+
+            <label for="start">when can you start : </label>
+            <input type="date" name="start" id="l" >
+            <br><br>
+            
+            <label for="number">phone number : </label>
+            <input type="tel" name="number" id="number" cols="40" rows="5"><br><br>
+
+            <label>Are you willing to relocate ? </label>
+            <input type="radio" name="yes">
+            <label for="relocate">yes</label>
+            <input type="radio" name="No">
+            <label for="relocate">No</label><br><br>
+
+            <label for="work">Last company you worked for  </label>
+            <input type="text" name="work" cols="40" rows=" 10"><br><br>
+
+            <label>Any Questions </label><br><br>
+            <textarea name="Questions" id="Questions" cols="40" rows="5"></textarea><br><br>
+            
+            <input type="submit" name="submit" value="Send Application">
+            <input type="submit" name="submit" value="Reset">
+        
+        
+        </div><br>
+      <a href="viewemployee.html" target="next.php" >Click to go next</a>
+    <footer> 
+        <p>copyright  &copy; velozion@gmail.com</p>
+    </footer>
+    </form>
+</fieldset>
+    
+    
+</body>
+</html>
